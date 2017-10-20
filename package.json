@@ -1,0 +1,35 @@
+{
+  "name": "proyectoplatzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adbaB/CursoPlatzom.git"
+  },
+  "keywords": [
+    "platzon",
+    "platzi",
+    "fundamentos",
+    "cursos",
+    "javascript",
+    "js",
+    "adbab"
+  ],
+  "author": "Alberto Basabe <alberto_12ba@hotmail.es> (https://twitter.com/AlbertoBasabe4)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adbaB/CursoPlatzom/issues"
+  },
+  "homepage": "https://github.com/adbaB/CursoPlatzom",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
